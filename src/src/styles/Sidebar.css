@@ -1,0 +1,98 @@
+.sidebar {
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed; /* Fix the sidebar to the left */
+  width: 350px; /* Ensure a fixed width for the sidebar */
+  left: 0;
+  top: 0;
+}
+
+.logo-container {
+  display: flex;
+  height: 150px;
+  top: 0;
+  margin-bottom: 100px;
+  margin-top: -120px;
+  
+}
+
+.logo {
+  max-width: 100%;
+  height:fit-content;
+  top: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  
+  padding: 15px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+}
+
+.sidebar a:hover {
+  background-color: #1283a0;
+  
+  border-radius: 5px;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.profile-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logout{
+  /*text-align: center;
+  margin-top: 250px;*/
+  bottom: 0;
+  text-align: center;
+  
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 14px;
+}
+
+.profile-button {
+  background-color: #1283a0;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  margin: 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.profile-button-g {
+  background-color: #1283a0;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  margin: 10px 0;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.profile-button:hover {
+  background-color: #106b8a;
+  transform: scale(1.05);
+}
